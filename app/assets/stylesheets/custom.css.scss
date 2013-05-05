@@ -31,7 +31,14 @@ h2 {
   color: $bannertextgrey;
 }
 
-
+h3 {
+	font-size: 2.5em;
+	letter-spacing: 0px;
+	font-weight: 200;
+	text-align: center;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+  color: $bannertextgrey;
+}
 /* image 
 
 
@@ -96,5 +103,8 @@ figure img{
 	max-height: 75px
 }
 
-
+.imgbutton_middle{
+	display: block;
+	margin: 0px auto 10px;
+}
 
