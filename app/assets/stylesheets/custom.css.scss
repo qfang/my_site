@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 h1 {
   font-size: 2.5em;
   letter-spacing: -1px;
@@ -30,6 +31,7 @@ h2 {
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: $bannertextgrey;
+  vertical-align: middle;  
 }
 
 h3 {
