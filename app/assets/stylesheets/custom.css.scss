@@ -1,9 +1,10 @@
-//import "foundation/foundation-global", "foundation/components/global", "foundation/components/block-grid";
 
 $vividwhite: #fefdfd;
 $bannerdarkgrey: #464646;
 $bannertextgrey: #737272;
 $sectiondarkgrey: #363535;
+$bannerwhite: #f3f2f2;
+
 
 /* typography */
 
@@ -25,13 +26,13 @@ h1 {
 
 
 h2 {
-  font-size: 2.2em;
+  font-size: 2.0em;
   letter-spacing: 0px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 6px;
   color: $bannertextgrey;
-  vertical-align: middle;  
 }
 
 h3 {
@@ -74,8 +75,14 @@ h3 {
 	clear: both;
 }
 
+.section-banner-white {
+	padding: 0px;
+	border: 0px none;	
+	background:$bannerwhite image-url("header_bg_creamy_ptn.png") repeat;
+	clear: both;
+}
 
-.highlight {
+.dark_section {
 	padding: 0px 0px 0px;
 	border: 0px none;		
 	background: $sectiondarkgrey;
@@ -90,9 +97,12 @@ h3 {
 
 .imgbutton_middle{
 	display: block;
-	margin: 0px auto 10px;
+	margin: 0px auto 20px;
 }
 
-
+.light_section{
+	height: 300px;
+	background: #f5f5f5;
+}
 
 
