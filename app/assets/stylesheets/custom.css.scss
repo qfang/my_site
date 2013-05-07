@@ -1,4 +1,4 @@
-@import "bootstrap";
+//import "foundation/foundation-global", "foundation/components/global", "foundation/components/block-grid";
 
 $vividwhite: #fefdfd;
 $bannerdarkgrey: #464646;
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  font-size: 2.8em;
+  font-size: 2.5em;
   letter-spacing: -1px;
   font-weight: 200;
   margin-bottom: 30px;
@@ -22,8 +22,9 @@ h1 {
   color: $vividwhite;
 }
 
+
 h2 {
-  font-size: 2.5em;
+  font-size: 2.2em;
   letter-spacing: 0px;
   font-weight: 300;
   text-align: center;
@@ -39,24 +40,12 @@ h3 {
 	font-family:'Yanone Kaffeesatz', sans-serif;
   color: $bannertextgrey;
 }
-/* image 
 
-
-figure img{
-	width:100%;
-	max-width:360px;
-	height:auto;
-	//display:block;
-	margin:0 auto;
-
-}
-
-*/
 
 /* header  */
 
 #site-header {
-	padding: 0px;
+	padding: 15px;
 	border: 0px none;
 	height: 130px;
 	background: image-url("header_bg_black_ptn.png") repeat,
@@ -65,10 +54,11 @@ figure img{
 }
 
 #masthead{
-	height: 92px;
+	//height: 156px;
 	padding: 35px 0px 40px;
-	background: image-url("ps_bg.png") repeat-x;
-
+	//background: image-url("ps_bg.png") repeat-x;
+	background: linear-gradient(90deg, rgb(236, 109, 70) 0%,rgb(246, 150, 86)  100%) repeat scroll 0% 0% transparent;
+	clear: both;
 }
 
 
@@ -78,23 +68,16 @@ figure img{
 .section-banner {
 	padding: 0px;
 	border: 0px none;	
-	height: 50px;
 	background:$bannerdarkgrey image-url("header_bg_black_ptn.png") repeat;
-
-	img{
-		vertical-align: middle;
-		align:center
-	}
-
+	clear: both;
 }
 
 
 .highlight {
-	padding: 10px 0px 0px;
+	padding: 0px 0px 0px;
 	border: 0px none;		
-	height: 200px;
 	background: $sectiondarkgrey;
-
+	clear: both;
 }
 
 .highlight_preview{
@@ -107,4 +90,7 @@ figure img{
 	display: block;
 	margin: 0px auto 10px;
 }
+
+
+
 
