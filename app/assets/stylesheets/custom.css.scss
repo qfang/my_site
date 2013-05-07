@@ -1,4 +1,5 @@
 
+
 $vividwhite: #fefdfd;
 $bannerdarkgrey: #464646;
 $bannertextgrey: #737272;
@@ -59,8 +60,14 @@ h3 {
 #masthead{
 	//height: 156px;
 	padding: 35px 0px 40px;
-	//background: image-url("ps_bg.png") repeat-x;
-	background: linear-gradient(90deg, rgb(236, 109, 70) 0%,rgb(246, 150, 86)  100%) repeat scroll 0% 0% transparent;
+	background: #ec6d46; /* Old browsers */
+	background: -moz-linear-gradient(top, #ec6d46 0%, #ec6d46 0%, #ec6d46 0%, #f69656 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ec6d46), color-stop(0%,#ec6d46), color-stop(0%,#ec6d46), color-stop(100%,#f69656)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ec6d46 0%,#ec6d46 0%,#ec6d46 0%,#f69656 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ec6d46 0%,#ec6d46 0%,#ec6d46 0%,#f69656 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ec6d46 0%,#ec6d46 0%,#ec6d46 0%,#f69656 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ec6d46 0%,#ec6d46 0%,#ec6d46 0%,#f69656 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec6d46', endColorstr='#f69656',GradientType=0 ); /* IE6-9 */
 	clear: both;
 }
 
