@@ -5,13 +5,13 @@
 </div>
 <% @photos = Dir.glob("app/assets/images/photos/*.jpg") %>
 <% @thumbnails = Dir.glob("app/assets/images/thumbnail/*.jpg") %>
-<div class="dark_section" >
+<div class="dark_section gallery" >
 	<ul class="clearing-thumbs" data-clearing>
 	<% @photos.each_with_index do |image, index| %>
 	  <% if index < 13 %>
 	  <li><%= link_to(image_tag("thumbnail/#{image.split('/').last}"), image_path("photos/#{image.split('/').last}"))%></li>
 	  <% else %>
-	  <li class="hide-for-small"><%= link_to(image_tag("thumbnail/#{image.split('/').last}"), image_path("photos/#{image.split('/').last}"))%></li>	  
+	  <li class="hide-for-small hide-for-portrait"><%= link_to(image_tag("thumbnail/#{image.split('/').last}"), image_path("photos/#{image.split('/').last}"))%></li>	  
 	  <% end %>	   
 	
 	<% end %>
