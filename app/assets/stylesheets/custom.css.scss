@@ -55,6 +55,10 @@ h4 {
   color: #eb6d56;
 
 }
+
+ul{
+	margin: 3px;
+}
 /* header  */
 
 #site-header {
@@ -106,7 +110,7 @@ h4 {
 }
 
 .dark_section {
-	padding: 0px 0px 0px;
+	padding: 5px 0px 5px 5px;
 	border: 0px none;		
 	background: $sectiondarkgrey;
 	clear: both;
@@ -144,14 +148,27 @@ h4 {
 	background: transparent;
 	color: $sectiondarkgrey;
 	text-align: left;
+	font-size: 1em;	
 }
 
 .value{
 	background: transparent;
 	color: $bannertextgrey;
+	font-size: 1em;	
 }
 
 .table_content{
 	padding: 6px 0px 6px;
+}
+.no_gap{
+	display:block;
+	float:left;
+	margin-right: 0px;
+}
+
+[data-clearing] li {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
 }
 
