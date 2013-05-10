@@ -3,33 +3,19 @@
 			<h2>WHEN I AM NOT WORKING...</h2>
 	</div>
 </div>
+<% @photos = Dir.glob("app/assets/images/photos/*.jpg") %>
+<% @thumbnails = Dir.glob("app/assets/images/thumbnail/*.jpg") %>
 <div class="dark_section" >
-
-		<!--
 	<ul class="clearing-thumbs" data-clearing>
-	  <li><%= link_to(image_tag("facebook.png"), image_path("facebook.png") )%></li>
-	  <li><%= link_to(image_tag("facebook.png"), image_path("facebook.png")) %></li>
-	  <li><%= link_to(image_tag("facebook.png"), image_path("facebook.png")) %></li>
-	</ul>
--->
+	<% @photos.each_with_index do |image, index| %>
+	  <% if index < 13 %>
+	  <li><%= link_to(image_tag("thumbnail/#{image.split('/').last}"), image_path("photos/#{image.split('/').last}"))%></li>
+	  <% else %>
+	  <li class="hide-for-small"><%= link_to(image_tag("thumbnail/#{image.split('/').last}"), image_path("photos/#{image.split('/').last}"))%></li>	  
+	  <% end %>	   
+	
+	<% end %>
 
-	<div class="row">
-		<ul data-orbit>	
-		  <li>
-		   <%= image_tag "photos/bridge.jpg" %>
-		  </li>
-		  <li>
-		    <%= image_tag "photos/piramid.jpg" %>
-		  </li>
-		  <li>
-		    <%= image_tag "photos/ricky-1.jpg" %>
-		  </li>
-		  <li>
-		    <%= image_tag "photos/tower.jpg" %>		  
-		</li>
-		  <li>
-		    <%= image_tag "photos/wineglassbay.jpg" %>
-		  </li>    
-		</ul>
-	</div>
+	</ul>
+
 </div>
