@@ -42,8 +42,8 @@ h3 {
 	font-weight: 400;
 	text-align: center;
 	font-family:'Yanone Kaffeesatz', sans-serif;
-	  margin-bottom: 0px;
-  color: $bannertextgrey;
+	margin-bottom: 0px;
+    color: $bannertextgrey;
 }
 
 h4 {
@@ -120,8 +120,14 @@ ul{
 	padding: 10px 0px 10px;
 	border: 0px none;	
 	background:$bannerwhite image-url("header_bg_creamy_ptn.png") repeat;
-
 }
+
+.table-header-black{
+	padding: 10px 0px 10px;
+	border: 0px none;	
+	background:$bannerdarkgrey image-url("header_bg_black_ptn.png") repeat;
+}
+
 
 .dark_section {
 	padding: 0px 0px 0px 0px;
@@ -160,7 +166,7 @@ ul{
 }
 
 .gallery{
-	padding: 0px 5px 0px 5px;	
+	padding: 5px 5px 5px 5px;	
 }
 
 .hidden_content{
@@ -174,7 +180,7 @@ ul{
 }
 
 #personal_highlights{
-	padding: 5px 20px 30px 20px;
+	padding: 5px 20px 10px 20px;
 }
 
 .highlight_preview{
@@ -201,6 +207,54 @@ ul{
 	padding: 0;
 	margin: 0;
 }
+
+.project_section{
+	padding: 20px 0px 50px;
+	border: 0px none;		
+	background: #434242;
+	clear: both;	
+
+	h2{
+	  font-weight: 200;
+	  color: #c6c6c6;	
+	  em{
+  		font-style:normal;	  	
+	  	color: #737272;
+	  }		  	
+	}
+
+	h3{
+		font-weight: 300;		
+    	color: #989898;		
+	}
+
+	.label{
+		background: transparent;
+		color: #a9a6a6;
+		text-align: left;
+		font-size: 1.2em;	
+	    font-weight: 300;
+	    font-family:'Yanone Kaffeesatz', sans-serif;		
+	}	
+
+	.value{
+		background: transparent;
+		color: $vividwhite;
+		text-align: left;
+		font-size: 1.1em;	
+	    font-weight: 300;
+	    font-family:'Yanone Kaffeesatz', sans-serif;	
+	}	
+}
+
+.project_content{
+	padding: 20px 0px 20px;
+	//height: 200px;
+	background: $sectiondarkgrey;
+	clear: both;	
+}
+
+
 
 /** know more of me */
 .more_content{

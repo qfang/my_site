@@ -14,5 +14,10 @@ $("#highlight_close_btn").click(function(){
   $("#highlight_minimum_view").fadeIn(500, "linear");
   $("#highlight_more_btn").fadeIn(500, "linear"); 
 
+});
 
+$("#project_dtl_btn").click(function(){
+
+  $("#project_dtl_btn").fadeIn(500, "linear"); 
+  $("#project_details").slideDown("slow");
 });
