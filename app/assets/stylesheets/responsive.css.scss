@@ -1,5 +1,6 @@
 $sectiondarkgrey: #363535;
 $bannertextgrey: #737272;
+$vividwhite: #fefdfd;
 
 @media only screen and (max-width: 768px) {
 
@@ -44,3 +45,19 @@ $bannertextgrey: #737272;
 	}	
 
 }
+
+@media only screen and (max-width: 450px) {
+	h5 {
+		font-size: 0.8em;
+		letter-spacing: 0px;
+		font-weight: 300;
+		text-align: left;
+		font-family:'Yanone Kaffeesatz', sans-serif;
+	  	color: $vividwhite;	
+	  	em{
+	  		color: #eb6d56;	
+	  		font-style:normal;
+	  	}
+	}
+}
+

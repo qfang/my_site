@@ -47,14 +47,28 @@ h3 {
 }
 
 h4 {
-		font-size: 1.2em;
+	font-size: 1.2em;
 	letter-spacing: 0px;
 	font-weight: 300;
 	text-align: center;
 	font-family:'Yanone Kaffeesatz', sans-serif;
-  color: #eb6d56;
+  	color: #eb6d56;
 
 }
+
+h5 {
+	font-size: 1.1em;
+	letter-spacing: 0px;
+	font-weight: 300;
+	text-align: left;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+  	color: $vividwhite;	
+  	em{
+  		color: #eb6d56;	
+  		font-style:normal;
+  	}
+}
+
 
 ul{
 	margin: 3px;
@@ -116,12 +130,6 @@ ul{
 	clear: both;
 }
 
-.highlight_preview{
-	display: block;
-	margin: 40px auto 30px;
-	max-height: 75px
-}
-
 .imgbutton_middle{
 	display: block;
 	margin: 0px auto 20px;
@@ -136,6 +144,65 @@ ul{
 	height: 80px;
 }
 
+
+.panel_container{
+	padding: 0px 0px 10px 0px;
+}
+
+[data-clearing] li {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.large_view_padding{
+	padding: 20px 100px 0px 100px;
+}
+
+.gallery{
+	padding: 0px 5px 0px 5px;	
+}
+
+.hidden_content{
+	display:none;
+}
+
+
+/** hightlight */
+#highlight_dtl_header{
+	padding: 25px 0px 0px 0px;
+}
+
+#personal_highlights{
+	padding: 5px 20px 30px 20px;
+}
+
+.highlight_preview{
+	display: block;
+	margin: 40px auto 30px;
+	max-height: 75px
+}
+
+.hightlight_panel{
+	
+	padding: 40px 10px 0px;
+	background: #2a2a2a;
+	height: 180px;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.highlight_detail_img{
+	max-height: 70px
+}
+
+.no-bullets{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/** know more of me */
 .more_content{
 	padding: 20px 0px 20px;
 	height: 200px;
@@ -166,16 +233,3 @@ ul{
 	margin-right: 0px;
 }
 
-[data-clearing] li {
-	margin-right: 0px;
-	margin-bottom: 0px;
-	
-}
-
-.large_view_padding{
-	padding: 20px 100px 0px 100px;
-}
-
-.gallery{
-	padding: 0px 5px 0px 5px;	
-}
