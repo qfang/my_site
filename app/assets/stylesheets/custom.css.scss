@@ -79,8 +79,9 @@ ul{
 	padding: 15px;
 	border: 0px none;
 	height: 130px;
-	background: image-url("header_bg_black_ptn.png") repeat,
-	image-url("header_bg.png") repeat-x
+	background: image-url("bg-header-container.png") repeat,
+	image-url("header_bg.png") repeat-x;
+	background-position: center center;
 
 }
 
@@ -105,7 +106,7 @@ ul{
 .section-banner {
 	padding: 0px;
 	border: 0px none;	
-	background:$bannerdarkgrey image-url("header_bg_black_ptn.png") repeat;
+	background:$bannerdarkgrey image-url("bg-header-container.png") repeat;
 	clear: both;
 }
 
@@ -125,7 +126,7 @@ ul{
 .table-header-black{
 	padding: 10px 0px 10px;
 	border: 0px none;	
-	background:$bannerdarkgrey image-url("header_bg_black_ptn.png") repeat;
+	background:$bannerdarkgrey image-url("bg-header-container.png") repeat;
 }
 
 
@@ -139,6 +140,7 @@ ul{
 .imgbutton_middle{
 	display: block;
 	margin: 0px auto 20px;
+
 }
 
 .light_section{

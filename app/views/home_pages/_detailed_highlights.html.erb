@@ -1,9 +1,4 @@
 <div id="highlight_dtl" class="hidden_content">
-	<div id="highlight_dtl_header" class="row">
-		<div class="large-12 columns">
-		<%= link_to image_tag('close_btn.png', :class => 'imgbutton_middle', :id=>"highlight_close_btn"), "#"%>
-		</div>
-	</div>
 	<div id="personal_highlights">
 		<div class="row panel_container">
 			<div class="large-6 small-12 columns">
@@ -106,9 +101,15 @@
 				</div>
 		</div>				
 	</div>
-	<div class="row">
+	<div id="show_project" class="row">
 		<div class="large-12 columns">
-		<%= link_to image_tag('project_dtl_btn.png', :class => 'imgbutton_middle', :id=>"project_dtl_btn"), "#"%>
+		<%= link_to image_tag('project_dtl_btn.png', :class => 'imgbutton_middle', :id=>"project_dtl_btn"), "javascript:void(0);"%>
+		</div>
+	</div>
+	<div id="close_project" class="row hidden_content">
+		<div class="large-12 columns">
+		<%= link_to image_tag('close_btn.png', :class => 'imgbutton_middle', :id=>"project_close_btn"), "javascript:void(0);"%>	
 		</div>
 	</div>	
+
 </div>

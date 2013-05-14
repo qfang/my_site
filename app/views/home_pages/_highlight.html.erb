@@ -29,9 +29,14 @@
 	</div>
 	<div class="row">
 		<div class="large-12 columns">
-		<%= link_to image_tag('highlight_more_btn.png', :class => 'imgbutton_middle', :id=>"highlight_more_btn"), "#"%>
+		<%= link_to image_tag('highlight_more_btn.png', :class => 'imgbutton_middle', :id=>"highlight_more_btn"), "javascript:void(0);"%>
 		</div>
 	</div>
+	<div id="highlight_dtl_header" class="row hidden_content">
+		<div class="large-12 columns">
+		<%= link_to image_tag('close_btn.png', :class => 'imgbutton_middle', :id=>"highlight_close_btn"), "javascript:void(0);"%>
+		</div>
+	</div>	
 	<%= render 'detailed_highlights' %>	
 </div>
 <%= render 'project_experience' %>	
