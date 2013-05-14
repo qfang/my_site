@@ -266,18 +266,17 @@ ul{
 	clear: both;
 }
 
-.label{
-	//color: rgb(153, 153, 153);
+.label{	
 	background: transparent;
 	color: $sectiondarkgrey;
 	text-align: left;
-	font-size: 1em;	
+	font-size: 0.8em;	
 }
 
 .value{
 	background: transparent;
 	color: $bannertextgrey;
-	font-size: 1em;	
+	font-size: 0.8em;	
 }
 
 .table_content{
@@ -287,5 +286,10 @@ ul{
 	display:block;
 	float:left;
 	margin-right: 0px;
+}
+
+.social_icons{
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 

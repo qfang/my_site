@@ -8,20 +8,6 @@ $vividwhite: #fefdfd;
 	  font-size: 2em;
 	  letter-spacing: 1px;
 	}
-
-	.label{
-		background: transparent;
-		color: $sectiondarkgrey;
-		text-align: left;
-  		font-size: 0.7em;		
-	}
-
-	.value{
-		background: transparent;
-		color: $bannertextgrey;
-		font-size: 0.7em;
-	}	
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -30,19 +16,6 @@ $vividwhite: #fefdfd;
 	  font-size: 2em;
 	  letter-spacing: 1px;
 	}
-
-	.label{
-		background: transparent;
-		color: $sectiondarkgrey;
-		text-align: left;
-  		font-size: 1.2em;		
-	}
-
-	.value{
-		background: transparent;
-		color: $bannertextgrey;
-		font-size: 1.2em;
-	}	
 
 }
 
