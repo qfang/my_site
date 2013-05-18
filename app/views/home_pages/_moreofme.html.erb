@@ -31,16 +31,10 @@
 					<div class="row table_content">
 						<div class="large-11 small-11 large-centered small-centered columns">
 							<span class="social_icons">
-								<%= image_tag "facebook.png" %>
+							<%= link_to image_tag('facebook.png', :mouseover => 'facebook_hover.png', ), "http://www.facebook.com/qiang.fang.16", :target => "_blank" %>	
 							</span>
 							<span class="social_icons">
-								<%= image_tag "linkedin.png" %>
-							</span>
-							<span class="social_icons">
-								<%= image_tag "skype.png" %>
-							</span>
-							<span class="social_icons">
-								<%= image_tag "twitter.png" %>
+								<%= link_to image_tag('linkedin.png', :mouseover => 'linkedin_hover.png', ), "http://au.linkedin.com/pub/dir/Jacky/Fang", :target => "_blank" %>	
 							</span>
 						</div>
 					</div>
@@ -50,13 +44,13 @@
 			<h3 class="table-header-white">KNOW MY COMPANY</h3>
 			<div class="more_content">
 					<div class="row table_content">
-						<div class="large-10 small-10 large-centered small-centered columns">
-							<%= image_tag "macquarie_uni_icon.png" %>
+						<div class="large-7 small-7 large-centered small-centered columns">
+						<%= link_to image_tag('macquarie_uni_icon.png'), "http://www.mq.edu.au", :target => "_blank" %>		
 						</div>												
 					</div>		
 					<div class="row table_content">
-						<div class="large-10 small-10 large-centered small-centered columns">
-							<%= image_tag "qbe_logo.png" %>
+						<div class="large-7 small-7 large-centered small-centered columns">
+							<%= link_to image_tag('qbe_logo.png'), "http://www.qbe.com.au", :target => "_blank" %>			
 						</div>												
 					</div>										
 			</div>
