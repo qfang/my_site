@@ -238,6 +238,36 @@ ul{
 	margin: 0;
 }
 
+/** timeline */
+
+.vertical-timeline{
+
+	border-left: 2px solid #eb6d56;
+	margin: 30px;
+	padding: 0px;
+	position: relative;
+
+}
+
+.timeline-content{
+
+	background-image: image-url("timeline_dot.png");
+	background-position: 0px 34px;
+	background-repeat: no-repeat;
+	list-style: none outside none;
+	margin-left: -10px;
+	overflow: hidden;
+	padding-left: 25px;
+
+	h3{
+		font-size: 1.6em;
+		font-weight: 300;
+		text-align: left;	
+		color: #eb6d56;	
+	}
+}
+
+/** projects */
 .project_section{
 	padding: 20px 0px 50px;
 	border: 0px none;		
