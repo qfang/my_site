@@ -2,7 +2,25 @@ $sectiondarkgrey: #363535;
 $bannertextgrey: #737272;
 $vividwhite: #fefdfd;
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
+
+	.project_section{
+		.project_ref{
+			max-width:110px;
+			max-height:40px;	
+		}
+		.project_content{
+			height: 400px;
+		}			
+	}
+
+	h3{
+	font-size: 1.3em;	
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
 
 	h1 {
 	  font-size: 2em;
@@ -23,6 +41,16 @@ $vividwhite: #fefdfd;
     	margin-right: auto;
     	max-height: 120px;		
 	}
+
+	.project_section{
+		.project_ref{
+			max-width:120px;
+			max-height:50px;	
+		}
+		.project_content{
+			height: auto;	
+		}	
+	}	
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,6 +70,10 @@ $vividwhite: #fefdfd;
 	}
 
 	.project_section{
+		.project_ref{
+			max-width:140px;
+			max-height:50px;	
+		}		
 		.project_content{
 			height: auto;	
 		}

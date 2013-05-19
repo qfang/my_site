@@ -278,11 +278,15 @@ ul{
 
 	.project_content{
 		padding: 20px 0px 20px;
-		height: 350px;
+		height: 360px;
 		background: $sectiondarkgrey;
 		clear: both;	
 	}
 
+	.project_ref{
+		max-height: 50px;
+		max-width: 150px;
+	}
 }
 
 
